@@ -25,7 +25,6 @@ public class Assignment2 {
 			if (guess == numberToGuess) {
 				win = true;
 				System.out.println("You Win!");
-				System.out.println("The number to guess was: " + numberToGuess);
 			}
 			else if (guess>100 || guess<1) {
 				System.out.println("Your guess is not between 1 and 100, please try again!");
@@ -43,7 +42,8 @@ public class Assignment2 {
 
 			}
 			
-			
 		}
+		scanner.close();
+
 	}
 }
