@@ -28,7 +28,7 @@ public class Assignment2 {
 			}
 			else if (guess>100 || guess<1) {
 				System.out.println("Your guess is not between 1 and 100, please try again!");
-				numberOfGuesses-=1;
+				numberOfGuesses=-2;
 
 			}
 			else if (guess < numberToGuess) {
